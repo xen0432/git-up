@@ -46,7 +46,7 @@
         <span>Kenapa Memilih GITUP</span>
       </div>
       <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6;">
-        Aplikasi pengelolaan GitHub berbasis peramban untuk kebutuhan pengunggahan berkas, folder, dan pembuatan repositori langsung tanpa konfigurasi terminal.
+        Website pengelolaan GitHub berbasis peramban untuk kebutuhan pengunggahan berkas, folder, dan pembuatan repositori langsung tanpa konfigurasi terminal.
       </p>
 
       <div class="features-list">
@@ -101,7 +101,7 @@
         </select>
         <input type="text" id="uploadRepoManual" placeholder="Atau masukkan nama repositori manual..." style="margin-top: 8px;">
 
-        <label>Pilih File (Bisa Pilih 1 atau Banyak Sekaligus)</label>
+        <label>Pilih File</label>
         <div class="file-input-wrapper">
           <input type="file" id="uploadFileInput" multiple onchange="handleMultipleFileNotice()">
           <div id="fileSelectedCount" style="font-size:0.75rem; color:var(--accent-cyan); margin-top: 6px;"></div>
@@ -184,7 +184,7 @@
       </div>
 
       <div id="loginFormArea">
-        <label>Personal Access Token (PAT)</label>
+        <label>Access Token</label>
         <input type="password" id="loginTokenInput" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx">
 
         <button class="btn" onclick="handleLogin()">
